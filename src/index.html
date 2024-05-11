@@ -4,24 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Evaluación de Patri</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./scss/reset.scss">
     <link rel="stylesheet" href="./scss/main.scss" />
     <link rel="icon" href="./images/favicon.png" />
   </head>
 
-  <body>
-    <header class="header">
-     <!-- <load src="partials/header.html"/> -->
-     <img src="./images/cover.jpeg" alt="foto de niña con pelota" >
-     <a  href=" https://adalab.es" target="_blank"><img src="./images/ico-menu.svg" alt="icono del menu hamburguesa" ></a>
-    </header>
+  <body class="page__container">
     
-     <main>
-       <img src="./images/ico-scroll-down.svg" alt="icono de scroll" >
-       <section class="section__1">COMIENZOS COMPARTIDOS
-        Todo lo que necesitan para volver al cole con ilusión
-       <img src="./images/ico-arrow.svg" alt="icono de la flecha" >
+    <header class="header">
+      <!-- <load src="partials/header.html"/> -->
+      <div class="header__menu__container">
+      <a  href=" https://adalab.es" target="_blank"><img class="header__menu" src="./images/ico-menu.svg" alt="icono del menu hamburguesa" ></a>
+      </div>
+     </header>
+     <main class="main__styles">
+
+      <section class="section__1">
+      
+       <h1 class="section1_tittle">COMIENZOS COMPARTIDOS</h1>
+       <p class="section1_text">Todo lo que necesitan para volver al cole con ilusión</p>
+       <img class="section1_image" src="./images/ico-scroll-down.svg" alt="icono de scroll" >
+
        </section>
 
        <section class="section__2">
@@ -43,19 +49,32 @@
        </section>
      </main>
      <footer class="footer">
+      <img src="./images/ico-arrow.svg" alt="icono de la flecha" >
+      
+      <div>
+        <ul>
+           <li><a target="_blank" href="https://adalab.es">ZAPATILLAS </a></li>
+           <li><a target="_blank" href="https://adalab.es">ROPA</a></li>
+           <li><a target="_blank" href="https://adalab.es">NIÑO</a></li>
+           <li><a target="_blank" href="https://adalab.es">NIÑA</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <ul>
+           <li><a target="_blank" href="https://adalab.es">TWITTER </a></li>
+           <li><a target="_blank" href="https://adalab.es">INSTAGRAM</a></li>
+           <li><a target="_blank" href="https://adalab.es">YOUTUBE</a></li>
+        </ul>
+      </div>
 
-      <small>copy&2023</small>
-      <img src="./images/pngfind.com-cartoon-heart-png-2537332.png" alt="icono corazón verde">
-      we run
-      ZAPATILLAS
-      ROPA
-      NIÑO
-      NIÑA
-      TWITTER
-      INSTAGRAM
-      YOUTUBE
+    
+    <div>
+      <small>copy&2024</small>
+      <img class="footer__menupicture" src="./images/pngfind.com-cartoon-heart-png-2537332.png" alt="icono corazón verde"> 
+      <p>we run</p>
+
+    </div>
     </footer>
-
-
   </body>
 </html>

@@ -1,3 +1,7 @@
-body{
-  background-color: aqua;
-}
+@import './core/variables';
+@import './layout/header' ;
+@import './layout/mainstyles' ;
+
+@import './layout/section1';
+
+@import './layout/footer';
