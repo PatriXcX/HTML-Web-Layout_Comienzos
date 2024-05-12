@@ -3,44 +3,48 @@
     background-image: url(../images/cover.jpeg);
     background-size: cover; /* Escala la imagen para cubrir todo el contenedor */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
-    height: 100vh;
-    background-position-x: 80%;
+    background-position-x: 90%;
     display: flex;
     flex-direction: column; 
-    /*justify-content: top; /* Centrar verticalmente */
-    align-items: center; /* Centrar horizontalmente */
-    padding: 30%
+    align-items: center;
+    height: 552px;
+    width: 320px;
     
-   
+
  }
  .section1_tittle{
-
-    padding: 30px;
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-size: xx-large;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
     font-style: normal;
-    margin: 40px; /*duda si hace mucho o no*/
+    font-optical-sizing: auto;
+    font-size: 30px;
     text-align:center;
-   
-   
-    
+    margin-top: 297px;
+           
+  
 }
 .section1_text{
-    padding: 10px;
+    
+    
     text-align:center;
     font-size:20px;
-    margin-top: 20%;
+    margin-top: 10%;
+    height: 50px;
+    margin-inline: 34,2px 42,5px;
+    width: 243.3px;
+    height: 16px;
+   
+    
 
    
 }
 .section1_image{
+
+   width: 38.2px;
+   height: 38.2px;
    background-color: #ffffff;
-   padding: 16px;
+   padding: 8px;
    border-radius: 50%;
-   margin-top:5%;
-   width: 60px;
-   height:60px;
+   margin-top: 40px;
   
 }
