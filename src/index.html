@@ -9,17 +9,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./scss/reset.scss">
     <link rel="stylesheet" href="./scss/main.scss" />
-    <link rel="icon" href="./images/favicon.png" />
+   
   </head>
 
   <body class="page__container">
+
+    <load src="partials/header.html"/>
     
-    <header class="header">
-      <!-- <load src="partials/header.html"/> -->
-      <div class="header__menu__container">
-      <a  href=" https://adalab.es" target="_blank"><img class="header__menu" src="./images/ico-menu.svg" alt="icono del menu hamburguesa" ></a>
-      </div>
-     </header>
+    
+
      <main class="main__styles">
 
       <section class="section__1">
@@ -37,9 +35,9 @@
         Comprar
        </section>
        <section class="section__3">
-        <img src="./images/puma-bag.png" alt="foto de niña con mochila puma" >
-        <img src="./images/nike-bag.png" alt="foto de niña con mochila nike" >
-        <img src="./images/colors.png" alt="foto de niño con lápices de colores" >
+        <img class="section__3_foto_1" src="./images/puma-bag.png" alt="foto de niña con mochila puma" >
+        <img class="section__3_foto_2" src="./images/nike-bag.png" alt="foto de niña con mochila nike" >
+        <img class="section__3_foto_3" src="./images/colors.png" alt="foto de niño con lápices de colores" >
          !Prepáralos con tus marcas favoritas!
          VUELTA AL COLE
          Mochilas escolares
@@ -48,33 +46,40 @@
          Empezar ahora
        </section>
      </main>
+
      <footer class="footer">
-      <img src="./images/ico-arrow.svg" alt="icono de la flecha" >
-      
-      <div>
+
+      <section class="footer__section__1">
+        <div>
+          <small>copy&2024</small>
+          <img class="footer__menupicture" src="./images/heart.png" alt="icono corazón verde">
+          <p>we run</p>
+        </div>
+      </section>
+
+      <section class="footer__section__2">
+       <div>
         <ul>
            <li><a target="_blank" href="https://adalab.es">ZAPATILLAS </a></li>
            <li><a target="_blank" href="https://adalab.es">ROPA</a></li>
            <li><a target="_blank" href="https://adalab.es">NIÑO</a></li>
            <li><a target="_blank" href="https://adalab.es">NIÑA</a></li>
         </ul>
-      </div>
+       </div>
+      </section> 
       
-      <div>
-        <ul>
-           <li><a target="_blank" href="https://adalab.es">TWITTER </a></li>
-           <li><a target="_blank" href="https://adalab.es">INSTAGRAM</a></li>
-           <li><a target="_blank" href="https://adalab.es">YOUTUBE</a></li>
-        </ul>
-      </div>
+      <section class="footer__section__3">
+        <div>
+          <ul>
+             <li><a target="_blank" href="https://adalab.es">TWITTER </a></li>
+             <li><a target="_blank" href="https://adalab.es">INSTAGRAM</a></li>
+             <li><a target="_blank" href="https://adalab.es">YOUTUBE</a></li>
+          </ul>
+        </div>
+      </section>
 
-    <footer>
-    <div>
-      <small>copy&2024</small>
-      <img class="footer__menupicture" src="./images/heart.png" alt="icono corazón verde"> 
-      <p>we run</p>
+      <img src="./images/ico-arrow.svg" alt="icono de la flecha" >
+   </footer>
 
-    </div>
-    </footer>
   </body>
 </html>
