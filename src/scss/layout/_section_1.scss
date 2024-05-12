@@ -2,8 +2,11 @@
     color: #ffffff;
     background-image: url(../images/cover.jpeg);
     background-size: cover; /* Escala la imagen para cubrir todo el contenedor */
-   background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
     height: 100vh;
+    background-position-x: right;
+
+
    
     display: flex;
     flex-direction: column; /* Alinear elementos en columna */
@@ -15,24 +18,32 @@
  }
  .section1_tittle{
 
-    padding: 50px;
+    padding: 30px;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: normal;
     font-size: xx-large;
     font-style: normal;
     margin: 40px; /*duda si hace mucho o no*/
-    text-align:center
+    text-align:center;
+   
    
     
 }
 .section1_text{
     padding: 10px;
     text-align:center;
-    font-size:50px;
+    font-size:20px;
+    margin-top: 20%;
 
    
 }
 .section1_image{
-    background-color: #ffffff;
+   background-color: #ffffff;
+   padding: 16px;
+   border-radius: 50%;
+   margin-top:5%;
+   width: 60px;
+   height:60px;
+  
 }
