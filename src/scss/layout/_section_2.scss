@@ -3,18 +3,21 @@
     flex-direction: column;
     text-align-last: left;
     background-color: white;
-    width: auto;
-    height: auto;
+    
+    height: 376px;
     flex-grow: 0;
 
 }
 .section__2__title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     height: 30px;
     font-size: 14px;
     margin-inline: 13px 63px;
     margin-top: 34px;
-    
     color: #6c933e;
+
 }
 .section__2__h1{
     
@@ -22,10 +25,10 @@
     margin-inline: 13px 17px;
     margin-bottom: 10px;
     font-size: 22px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
     font-style: normal;
-    
 }
 .section__2__text{
     

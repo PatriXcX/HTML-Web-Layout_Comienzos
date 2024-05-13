@@ -1,18 +1,51 @@
-.section__3_foto_1{
+
+.section__3{
+    background-color:#d9e4cc ;
+    margin-bottom: 20px;
+    
+    
+  
+    
+}
+
+    @media (min-width: 768px){
+        .section__3__container{
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+        }
+        .section__3__tittle{
+            grid-column: span 2;
+        }
+        
+    }
+        
+    
+.section__3__content{
+    width: 110px; 
+    height: auto; 
+    border-radius: 50%;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    margin-block: 15px;
+    
+    
+
+}
+.section__3__foto{
     
         width: 110px; 
         height: auto; 
-        border-radius: 50%;  
+        border-radius: 50%; 
+        text-align: center; 
+
+        
 }
-.section__3_foto_2{
-    
-    width: 110px; 
-    height: auto; 
-    border-radius: 50%;  
-}
-.section__3_foto_3{
-    
-    width: 110px; 
-    height: auto; 
-    border-radius: 50%;  
+.section__3__text{
+
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
 }

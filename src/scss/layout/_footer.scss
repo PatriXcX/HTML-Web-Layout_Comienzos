@@ -1,9 +1,18 @@
-.footer{
-    height: 40px;
-    display: flex;
-    justify-content: space-around;
-}
+
+    .footer{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        background-color: #4a4a4a;
+        
+    }
+
 .footer__menupicture{
     width: 10px;
     height: 10px
+}
+.footer__img__arrow{
+    width: 20px;
+    height: 20px
 }
