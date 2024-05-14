@@ -1,12 +1,12 @@
 .section__2{
     display: flex;
     flex-direction: column;
-    text-align-last: left;
+    text-align: left;
     background-color: white;
+    width: 90%;
+    margin-inline: auto;
     
-    height: 376px;
-    flex-grow: 0;
-
+         
 }
 .section__2__title{
     font-family: "Roboto", sans-serif;
@@ -14,15 +14,16 @@
     font-style: normal;
     height: 30px;
     font-size: 14px;
-    margin-inline: 13px 63px;
+    
     margin-top: 34px;
     color: #6c933e;
+   
 
 }
 .section__2__h1{
     
     height: 30px;
-    margin-inline: 13px 17px;
+   
     margin-bottom: 10px;
     font-size: 22px;
     font-family: "Roboto Slab", serif;
@@ -32,13 +33,13 @@
 }
 .section__2__text{
     
-    margin-inline: 13px 17px;
+   
     text-align: justify;
     font-size: 18px;
     color: #4a4a4a;
 }
    .section__2__button{
-  
+    width: 200px;
     margin-top: 52px;
     margin-inline: 13.4px 139.4px;
     padding: 10px;
@@ -54,8 +55,8 @@
     font-weight: 500;
     font-style: normal;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+
+    
 
    } 
