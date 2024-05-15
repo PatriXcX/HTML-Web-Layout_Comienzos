@@ -68,25 +68,21 @@
      
 }
 .section__3__button{
-    
-   
     background-color:#6c933e;
     border: none ;
     border-radius:30px;
-    
     font-size: 20px;
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
-
     padding: 5px;
-    transform: translateX(90px);
+
     width:200px;
     margin-top: 15px;
     margin-bottom: -10px;
-    
 
+    transform: translateX(90px);
     cursor: pointer;
     transition: opacity 1s ease-in-out;
     opacity: 1; 
@@ -94,14 +90,12 @@
    } 
    .section__3__button:hover{
     opacity:0.5;
-    
    }  
 
 .arrow{
     position: relative;
-    
-
 }
+
 .main__link_arrow {
     position: absolute;
     bottom: -92px;
