@@ -39,24 +39,33 @@
     color: #4a4a4a;
 }
    .section__2__button{
-    width: 200px;
-    margin-top: 52px;
-    margin-inline: 13.4px 139.4px;
-    padding: 10px;
+
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     background-color: white;
     border-radius:30px;
     border-width: 2px;
     border: solid;
     font-size: 20px;
     color: #6c933e;
+
+    display: inline-block;
+    width: 200px;
+    margin-top: 52px;
+    margin-inline: 13.4px 139.4px;
+    padding: 10px;
+    
     margin-bottom: 50px;
 
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-
-    
-
-    
+    cursor: pointer;
+    transition: background-color 1.5s, transform 1.5s;
 
    } 
+   .section__2__button:hover{
+    background-color:#d9e4cc;
+    transform: scale(1.2);
+    font-size: 30px;
+    margin-left: 20px;
+   }

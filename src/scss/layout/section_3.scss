@@ -1,41 +1,35 @@
 
 .section__3{
-    background-color:#d9e4cc ;
-    padding-inline: 5%;
-    /*display: grid; opcional se puede quitar y dar espacio a los elementod de otra forma*/
+     background-color:#d9e4cc ;
+     padding-inline: 5%;
+     padding-bottom: 70px;
   
 }
     
 .section__3__content{
-   
-   
     text-align: center;
     display: grid;
     justify-items: center;
     margin-block: 15px;
-    padding-inline: 40%;
-    
-    
+    padding-inline: 40%;   
 
 }
 .section__3__foto__1{
-    
-        width: 135%; 
-        height: auto; 
-        border-radius: 50%; 
-        text-align: center; 
+    width: 135%; 
+    height: auto; 
+    border-radius: 50%; 
+    text-align: center; 
    }
 
 .section__3__foto__2{
-    
     width: 135%; 
     height: auto; 
     border-radius: 50%; 
     text-align: center; 
     
   }
+
 .section__3__foto__3{
-    
     width: 135%; 
     height: auto; 
     border-radius: 50%; 
@@ -43,13 +37,13 @@
       
 }
 .section__3__text{
-
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
     font-size: 12px;
     color: #626262;
+
     text-align: center;
     padding: 20px;
 }
@@ -71,37 +65,46 @@
     font-size: 18px;
     color: black;
     margin-top: 10px;
+     
+}
+.section__3__button{
     
    
-}
-.button{
-   
     background-color:#6c933e;
-    border: solid #6c933e ;
+    border: none ;
     border-radius:30px;
+    
     font-size: 20px;
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
-    
-    width:200px;
-    padding-block: 5px;
-    margin-top: 50px;
-   
 
+    padding: 5px;
+    transform: translateX(90px);
+    width:200px;
+    margin-top: 15px;
+    margin-bottom: -10px;
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    cursor: pointer;
+    transition: opacity 1s ease-in-out;
+    opacity: 1; 
     
-}
+   } 
+   .section__3__button:hover{
+    opacity:0.5;
+    
+   }  
+
 .arrow{
     position: relative;
+    
+
 }
-.footer__link_arrow {
+.main__link_arrow {
     position: absolute;
-    bottom: -19.1px;
+    bottom: -92px;
     right: 50%;
     transform: translate(50%);
 }
@@ -111,10 +114,7 @@
     height: 38.2px;
     background-color: #ffffff;
     border-radius: 50%;
-    padding: 7px;
-
-
-    
+    padding: 7px; 
     
 }
 @media (min-width: 768px){
