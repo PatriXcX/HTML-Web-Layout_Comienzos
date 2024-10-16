@@ -1,64 +1,60 @@
-.section__2{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    background-color: white;
-    width: 90%;
-    margin-inline: auto;
-    
-         
+.section__2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  width: 90%;
+  margin-inline: auto;
 }
-.section__2__title{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    height: 30px;
-    font-size: 14px;
-    
-    margin-top: 34px;
-    color: #6c933e;
-   
+.section__2__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 30px;
+  font-size: 14px;
 
+  margin-top: 34px;
+  color: #6c933e;
 }
-.section__2__h1{
-    height: 30px;
-    margin-bottom: 10px;
-    font-size: 22px;
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
+.section__2__h1 {
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
-.section__2__text{
-    text-align: justify;
-    font-size: 18px;
-    color: #4a4a4a;
+.section__2__text {
+  font-size: 18px;
+  color: #4a4a4a;
+  text-align: justify;
+  white-space: normal;
 }
-   .section__2__button{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    background-color: white;
-    border-radius:30px;
-    border-width: 2px;
-    border: solid;
-    font-size: 20px;
-    color: #6c933e;
+.section__2__button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: white;
+  border-radius: 30px;
+  border-width: 2px;
+  border: solid;
+  font-size: 20px;
+  color: #6c933e;
 
-    display: inline-block;
-    width: 200px;
-    margin-top: 52px;
-    margin-inline: 13.4px 139.4px;
-    padding: 10px;
-    margin-bottom: 50px;
+  display: inline-block;
+  width: 150px;
+  margin: auto;
+  margin-top: 25px;
+  padding: 8px;
+  margin-bottom: 40px;
 
-    cursor: pointer;
-    transition: background-color 1.5s, transform 1.5s;
-
-   } 
-   .section__2__button:hover{
-    background-color:#d9e4cc;
-    transform: scale(1.2);
-    font-size: 30px;
-    margin-left: 20px;
-   }
+  cursor: pointer;
+  transition: background-color 1.5s, transform 1.5s;
+}
+.section__2__button:hover {
+  background-color: #d9e4cc;
+  transform: scale(1.2);
+  font-size: 30px;
+  margin-left: 20px;
+}
