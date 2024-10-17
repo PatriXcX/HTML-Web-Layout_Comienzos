@@ -1,4 +1,4 @@
-# Página Web con HTML y CSS
+# Página Web con HTML y SCSS
 
 Este proyecto es una página web estática creada utilizando **HTML** y **SCSS**. Es una página sencilla que muestra las habilidades básicas para estructurar y dar estilo a un sitio web.
 
@@ -26,7 +26,7 @@ El proyecto consta de los siguientes archivos:
 
 bash
 Copiar código
-git clone https://github.com/tuusuario/nombre-del-repositorio.git
+git clone https://github.com/Adalab/modulo-1-evaluacion-final-PatriXcX.git
 Abre el archivo index.html en tu navegador web.
 
 2. Entra al diréctamente al link mostrado en esta página:
