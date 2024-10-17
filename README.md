@@ -27,6 +27,7 @@ El proyecto consta de los siguientes archivos:
 bash
 Copiar código
 git clone https://github.com/Adalab/modulo-1-evaluacion-final-PatriXcX.git
+
 Abre el archivo index.html en tu navegador web.
 
 2. Entra al diréctamente al link mostrado en esta página en "About".
